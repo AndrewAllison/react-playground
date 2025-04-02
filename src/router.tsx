@@ -7,8 +7,8 @@ import {
 
 import App from './App';
 import Home from './pages/Home';
-import Challenge01 from './pages/challenges/Challenge01';
-import Challenge02 from './pages/challenges/Challenge02';
+import Challenge01 from './pages/challenges/basics/Challenge01.tsx';
+import Challenge02 from './pages/challenges/basics/Challenge02.tsx';
 
 const rootRoute = createRootRoute({
 	component: App,

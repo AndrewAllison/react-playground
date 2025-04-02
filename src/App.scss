@@ -1,0 +1,48 @@
+// src/App.scss
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f6f8fa;
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.app__header {
+  padding: 1rem 2rem;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.app__title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.app__nav {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+
+  a {
+    text-decoration: none;
+    color: #0070f3;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.app__main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.app__footer {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.875rem;
+  background: #eee;
+}
